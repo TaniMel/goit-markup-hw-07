@@ -1,12 +1,11 @@
-
 .social-list {
   display: flex;
   justify-content: space-between;
 }
-.social-list-icon {
+.social-list__icon {
   fill: currentColor;
 }
-.social-list-link {
+.social-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +19,7 @@
 
   &:hover,
   &:focus {
-  background: var(--accent-color);
-  color: #ffffff;
-}
+    background: var(--accent-color);
+    color: #ffffff;
+  }
 }

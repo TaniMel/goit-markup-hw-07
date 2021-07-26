@@ -1,4 +1,4 @@
-.modal-button {
+.menu-button__btn {
   font-family: "Roboto", sans-serif;
   display: inline-block;
   border-radius: 4px;
@@ -31,7 +31,7 @@
   padding-top: var(--section-padding-gap);
   padding-bottom: var(--section-padding-gap);
 }
-.menu-button-go:not(:last-child) {
+.menu-button__list:not(:last-child) {
   margin-right: 8px;
 }
 .menu-cards {
