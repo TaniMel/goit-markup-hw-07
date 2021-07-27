@@ -31,6 +31,11 @@
   color: var(--accent-color);
 }
 .logo {
+  animation-duration: 250ms;
+  animation-iteration-count: 2;
+}
+
+.header__logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -38,9 +43,8 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  animation-duration: 250ms;
-  animation-iteration-count: 2;
 }
+
 .menu {
   display: flex;
   align-items: center;

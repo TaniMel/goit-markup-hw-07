@@ -1,4 +1,4 @@
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -27,7 +27,7 @@
   background-size: cover;
 }
 
-.hero-push {
+.hero__push {
   min-width: 200px;
   font-weight: 700;
   font-size: 16px;
@@ -42,10 +42,8 @@
   padding: 10px 32px;
 
   &:hover,
-&:focus {
-  background: var(--accent-color);
-  color: #ffffff;
+  &:focus {
+    background: var(--accent-color);
+    color: #ffffff;
+  }
 }
-}
-
-
